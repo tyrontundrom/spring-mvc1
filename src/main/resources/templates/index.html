@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+
+Strona z przyciskiem<br/><br/><br/>
+
+<form action="/" method="post">
+    <input name="button1" value="Kliknięto" type="submit"/>
+</form>
+
+<br/><br/>
+<div  th:text="${text}"></div>
+
+<br/><br/>
+<a href="/main">Wstecz</a>
+
+</body>
+</html>
